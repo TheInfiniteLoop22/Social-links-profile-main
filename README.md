@@ -16,7 +16,7 @@ This is a basic foundation, so feel free to play around with the code. Here are 
 * Add or remove social media links as needed.
 * Modify the layout and design to create a unique look and feel.
 
-***I'd Love To learn Further!***
+***I'd Love To Learn Further!***
 
 This project is a stepping stone for me in the world of web development.
 If you have any suggestions or feedback, feel free to leave a comment below (if using a fork) or open an issue on this repository!
