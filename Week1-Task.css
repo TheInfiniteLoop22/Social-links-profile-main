@@ -1,0 +1,86 @@
+/*ISTE Summer-School Web Devolopment Domain -Week 1 Task*/
+/*Date: 14/06/24*/
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;                         /*hsl(0, 0%, 100%)*/
+    border: 0;
+  }
+  body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(20,20,20);
+  }
+  #image{
+    align-self: auto;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    background-image: url("avatar-jessica.jpeg");
+    background-size:cover;
+  }
+  h2{
+    margin-top: 22px;
+    font-weight: 700;
+  }
+  #location{
+    color: hsl(75, 94%, 57%);             /*rgb(197, 248, 42)*/
+    margin-top: 5px;
+    font-size: 15px;
+  }
+  p{
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 350px;
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 12%);    /*rgb(30,30,30)*/
+    padding: 30px 20px 30px 20px;
+  }
+  .profile{
+    border-radius: 10px;
+    background-color:hsl(0, 0%, 20%);     /*rgb(51,51,51)*/
+    margin-bottom: 20px; 
+    height: 55px;
+    width: 100%;
+    font: 16px;
+  }
+  .profile:hover{
+    background-color: hsl(75, 94%, 57%);  /*rgb(197, 248, 42)*/
+    color: hsl(0, 0%, 8%);                /*rgb(20,20,20)*/
+  }
+  .about{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-weight: 400;
+  }
+  .attribution{ 
+    font-size: 11px; text-align: center; 
+  }
+  .attribution a { 
+    color:hsl(228, 45%, 44%);             /*rgb(64,84,165);*/
+  }
+
+  
+  @media(max-width: 350px){
+    .container{
+        height:100vh;
+    }
+    #image{
+      margin-top:10vh;
+    }
+  }
+
+    
